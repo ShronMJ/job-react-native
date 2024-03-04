@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "PokeAPIApp",
-    "slug": "PokeAPIApp",
+    "name": "job-search",
+    "slug": "job-search",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,8 +23,14 @@
         "backgroundColor": "#ffffff"
       }
     },
+    "scheme": "MyScheme",
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "output": "server",
+      "bundler": "metro"
+    },
+    "experiments": {
+      "baseUrl": "/job-react-native"
     }
   }
 }
